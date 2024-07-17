@@ -256,8 +256,6 @@ header nav > ul li > a {
 }
 
 .some-facts {
-    border: 2px solid saddlebrown;
-
     margin: 0 auto;
     max-width: 63rem;
     min-height: 20rem;
@@ -282,8 +280,6 @@ header nav > ul li > a {
 }
 
 .fact-cards {
-    border: 2px solid rebeccapurple;
-
     width: 100%;
     display: flex;
     justify-content: space-around;
