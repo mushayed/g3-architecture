@@ -328,6 +328,26 @@ header nav > ul li > a {
 
 /* main section ends here */
 
+/* footer section starts here */
+footer {
+    max-width: 63rem;
+    height: 4.3rem;
+    border-radius: 8px;
+    background-color: rgb(255, 244, 231);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: rgb(66, 66, 66);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+/* footer section ends here */
+
 
 /* mobile responsive starts here */
 @media screen and (max-width: 576px) {
@@ -407,6 +427,12 @@ header nav > ul li > a {
         display: none;
     }
     /* main section ends here */
+
+    /* footer section starts here */
+    footer {
+        text-align: center;
+    }
+    /* footer section ends here */
 }
 /* mobile responsive ends here */
 
