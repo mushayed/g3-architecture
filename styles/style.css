@@ -298,8 +298,6 @@ header nav > ul li > a {
 }
 
 .sponsors {
-    border: 2px solid saddlebrown;
-
     max-width: 63rem;
     margin: 7rem auto;
     display: flex;
@@ -317,8 +315,6 @@ header nav > ul li > a {
 }
 
 .icons {
-    border: 2px solid rebeccapurple;
-
     display: flex;
     gap: 6.6rem;
 }
@@ -429,6 +425,10 @@ header nav > ul li > a {
 
     .some-facts-content {
         padding-left: 1rem;
+    }
+
+    .icons {
+        gap: 1rem;
     }
     /* main section ends here */
 }
