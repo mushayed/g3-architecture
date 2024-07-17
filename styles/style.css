@@ -165,7 +165,7 @@ header nav > ul li > a {
     border: 2px solid saddlebrown;
 
     max-width: 63rem;
-    height: 46rem;
+    min-height: 46rem;
     margin: 5.6rem auto;
     display: flex;
     position: relative;
@@ -299,6 +299,20 @@ header nav > ul li > a {
 
     .feature {
         flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        position: static;
+    }
+
+    .feature-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .badge {
+        position: static;
+        width: 13.9rem;
+        height: 7.7rem;
     }
     /* main section ends here */
 }
